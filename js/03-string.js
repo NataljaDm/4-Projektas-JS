@@ -159,20 +159,18 @@ ${skaicius} * 9 = ${atsakymas * 9}`;
 
 console.log(lentele);
 
-
 const septini = 7;
 let ats = septini;
 
-const daugyba = 'Daugybos lentele'
-septini + " * 1 = " + ats
-septini + " * 2 = " + ats * 2
-septini + " * 3 = " + ats * 3
-septini + " * 4 = " + ats * 4
-septini + " * 5 = " + ats * 5
-septini + " * 6 = " + ats * 6
-septini + " * 7 = " + ats * 7
-septini + " * 8 = " + ats * 8
-septini + " * 9 = " + ats * 9 ; 
+const daugyba = septini + " * 1 = " + ats + " \r\n\ " 
++ septini + " * 2 = " + ats * 2 + ' \r\n\ ' 
++ septini + " * 3 = " + ats * 3 + ' \r\n\ '
++ septini + " * 4 = " + ats * 4 + ' \r\n\ '
++ septini + " * 5 = " + ats * 5 + ' \r\n\ '
++ septini + " * 6 = " + ats * 6 + ' \r\n\ '
++ septini + " * 7 = " + ats * 7 + ' \r\n\ '
++ septini + " * 8 = " + ats * 8 + ' \r\n\ '
++ septini + " * 9 = " + ats * 9 ; 
 
 
 console.log(daugyba);
