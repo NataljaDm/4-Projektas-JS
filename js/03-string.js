@@ -143,15 +143,15 @@ console.clear();
 
 
 const skaicius = 7 ;
-let atsakymas = skaicius
-const a = 2
-const b = 3
-const c = 4
-const d = 5
-const i = 6
-const f = 7
-const g = 8
-const k = 9
+let atsakymas = skaicius;
+const a = 2;
+const b = 3;
+const c = 4;
+const d = 5;
+const i = 6;
+const f = 7;
+const g = 8;
+const k = 9;
 
 const lentele = `${skaicius} * 1 = ${atsakymas}
 ${skaicius} * ${a} = ${atsakymas * a}
@@ -165,18 +165,15 @@ ${skaicius} * ${k} = ${atsakymas * k}`;
 
 console.log(lentele);
 
-const septini = 7;
-let ats = septini;
-
-const daugyba = septini + " * 1 = " + ats + ' \n\ '
-+ septini + " * 2 = " + ats * 2 + ' \n\ ' 
-+ septini + " * 3 = " + ats * 3 + ' \n\ '
-+ septini + " * 4 = " + ats * 4 + ' \n\ '
-+ septini + " * 5 = " + ats * 5 + ' \n\ '
-+ septini + " * 6 = " + ats * 6 + ' \n\ '
-+ septini + " * 7 = " + ats * 7 + ' \n\ '
-+ septini + " * 8 = " + ats * 8 + ' \n\ '
-+ septini + " * 9 = " + ats * 9 ; 
+const daugyba = skaicius + " * 1 = " + atsakymas + '\n'
++ skaicius + " * 2 = " + atsakymas * 2 + '\n' 
++ skaicius + " * 3 = " + atsakymas * 3 + '\n'
++ skaicius + " * 4 = " + atsakymas * 4 + '\n'
++ skaicius + " * 5 = " + atsakymas * 5 + '\n'
++ skaicius + " * 6 = " + atsakymas * 6 + '\n'
++ skaicius + " * 7 = " + atsakymas * 7 + '\n'
++ skaicius + " * 8 = " + atsakymas * 8 + '\n'
++ skaicius + " * 9 = " + atsakymas * 9 ; 
 
 
 console.log(daugyba);
