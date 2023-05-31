@@ -44,7 +44,7 @@ console.log((2 + 2) * 2, 8);
 
 console.log(0.1 + 0.2, 0.3);
 
-console.clear();
+
 
 // KINTAMIEJI
 
@@ -61,7 +61,7 @@ console.log(SALDAINIU_KIEKIS);
 
 console.log(amzius);
 
-console.clear();
+
 // Kintamieji: konstantos ir kintamieji;
 
 let pinige = 0;
@@ -116,7 +116,6 @@ console.log(index);
 index = index + 7;
 console.log(index);
 
-console.clear();
 
 let driezas = 1;
 console.log(driezas);
@@ -186,7 +185,7 @@ console.log(x);
 x++;
 console.log(x);
 
-console.clear();
+
 
 let y = 5;
 
@@ -199,7 +198,7 @@ console.log(y);
 ++y;
 console.log(y);
 
-console.clear();
+
 
 let m = 7;
 
@@ -239,7 +238,7 @@ console.log(2 * 2 * 2 * 2, 2 ** 4);
 console.log(16 ** 0.25, 2);
 console.log(8 ** 0.3333333333333333333, 2);
 
-console.clear();
+
 
 const a = 8;
 const b = 9;
@@ -258,3 +257,8 @@ const p5 = 6;
 const vidurkis = (p1 + p2 + p3 + p4 + p5) / 5;
 console.log(vidurkis);
 
+
+console.log(1);
+console.log(2);
+console.log(3.14);
+console.log(2.72);

@@ -82,8 +82,7 @@ rytas,\n\
 Lietuva!';
 console.log(labas);
 
-const HTML = '\
-<header>\r\n\
+const HTML = '\<header>\r\n\
 \t<img src="#" alt="Logo" class="logo">\r\n\
 \t<nav>\r\n\
 \t\t<a href="#">Link</a>\r\n\
@@ -140,5 +139,45 @@ console.log(martis);
 // ...
 // 5 * 10 = 20
 
-const lentele1 = '';
-const lentele2 = ``;
+console.clear();
+
+
+const skaicius = 7 ;
+let atsakymas = skaicius
+console.log(skaicius);
+console.log(atsakymas);
+
+const lentele = `${skaicius} * 1 = ${atsakymas}
+${skaicius} * 2 = ${atsakymas * 2}
+${skaicius} * 3 = ${atsakymas * 3}
+${skaicius} * 4 = ${atsakymas * 4}
+${skaicius} * 5 = ${atsakymas * 5}
+${skaicius} * 6 = ${atsakymas * 6}
+${skaicius} * 7 = ${atsakymas * 7}
+${skaicius} * 8 = ${atsakymas * 8}
+${skaicius} * 9 = ${atsakymas * 9}`;
+
+console.log(lentele);
+
+
+const septini = 7;
+let ats = septini;
+
+const daugyba = 'Daugybos lentele'
+septini + " * 1 = " + ats
+septini + " * 2 = " + ats * 2
+septini + " * 3 = " + ats * 3
+septini + " * 4 = " + ats * 4
+septini + " * 5 = " + ats * 5
+septini + " * 6 = " + ats * 6
+septini + " * 7 = " + ats * 7
+septini + " * 8 = " + ats * 8
+septini + " * 9 = " + ats * 9 ; 
+
+
+console.log(daugyba);
+
+
+
+
+
