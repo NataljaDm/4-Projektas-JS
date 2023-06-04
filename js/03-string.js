@@ -6,6 +6,9 @@ STRING - tekstiniu simboliu grandinele, aka tekstas
 Iniciavimo budai:
 - viengubos kabutes ('')
 - dvygubos kabutes ("")
+
+Ilgis:
+'stringas'.length
 */
 
 const vardas = 'Jonas';
@@ -144,6 +147,7 @@ console.clear();
 
 const skaicius = 7 ;
 let atsakymas = skaicius;
+const x = 1;
 const a = 2;
 const b = 3;
 const c = 4;
@@ -153,7 +157,7 @@ const f = 7;
 const g = 8;
 const k = 9;
 
-const lentele = `${skaicius} * 1 = ${atsakymas}
+const lentele = `${skaicius} * ${x} = ${atsakymas}
 ${skaicius} * ${a} = ${atsakymas * a}
 ${skaicius} * ${b} = ${atsakymas * b}
 ${skaicius} * ${c} = ${atsakymas * c}
@@ -177,6 +181,8 @@ const daugyba = skaicius + " * 1 = " + atsakymas + '\n'
 
 
 console.log(daugyba);
+
+
 
 
 
