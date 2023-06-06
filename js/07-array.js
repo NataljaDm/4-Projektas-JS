@@ -58,7 +58,7 @@ console.log(empty, empty.length);
 const index = students.length - 1;
 console.log('Paskutinis:', students[index]);
 
-console.clear();
+
 
 // Jonas: paskutinis pazymys yra 8.
 // Maryte: paskutinis pazymys yra 8.
