@@ -36,3 +36,33 @@ console.log(typeof a);
 const b = typeof true;
 console.log(b);
 console.log(typeof b);
+
+const students = [
+    {
+        name: 'Jonas',
+        age: 99,
+        isMarried: true,
+    },
+    {
+        name: 'Maryte',
+        age: 88,
+        isMarried: false,
+    },
+];
+
+const studentIndex = 1;
+const student = students[studentIndex];
+
+console.log(students);
+console.log(student);
+console.log(student['age']);
+console.log(student['name']);
+console.log(student['isMarried']);
+
+const x = vardenis
+const y = pavardenis
+
+function name(params) {
+    
+    
+}
